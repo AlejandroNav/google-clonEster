@@ -1,9 +1,91 @@
-html,body {
-    font-family: arial,sans-serif;
-    height: 100vh;
-}
-header {
-    top: 0;
-    font-family: "Arial", sans-serif;
-    font-size: 13px;
-}
+/*======================================
+=            General Styles            =
+======================================*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    margin: auto;
+  }
+  
+  a {
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+  }
+/*==      navigation bar     ==*/
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    background-color: rgba(255, 255, 255, 0.658);
+  }
+  
+  .nav li {
+    background-color: rgba(255, 255, 255, 0.712);
+    display: inline-block;
+    padding: 1em;
+  }
+  .sign-in {
+    font-size: 15px;
+    height: 35px;
+    width: 75px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgba(155, 112, 255);
+    color: rgb(68, 25, 25);
+    font-weight: bold;
+  }
+/*=  End of navigation  =*/
+
+/*==      Main     ==*/
+
+main {
+    text-align: center;
+    margin-top: 150px;
+  }
+  input[name="search"] {
+    display: block;
+    margin: auto;
+    width: 500px;
+    line-height: 50px;
+    border: 3px hsla(116, 0%, 93%, 1.00) solid;
+    border-radius: 45px;
+    vertical-align: center;
+  }
+  input[name="search"]:hover {
+    box-shadow: 0px 0px 7px -2px rgba(155, 112, 255, 0.404);
+    }
+    .search {
+        margin: 25px 8px;
+        background-color: rgba(155, 112, 255, 0.404);
+        border: none;
+        height: 35px;
+        width: 140px;
+        color: hsla(214, 5%, 39%, 1.00);
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 6px;
+      }
+      .search:hover {
+        border: 1px solid #C0C0C0;
+        color: hsla(214, 5%, 39%, 1.00);
+        box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.4);
+      }
+
+    /*=  End of Main =*/
+
+
+/*==      Footer     ==*/
+
+footer {
+    background-color: rgb(247, 49, 49);
+    position: absolute;
+    bottom:0;
+    height:3.5em;
+    width: 100%;
+    font-weight: 500;
+    color: hsla(214, 5%, 39%, 1.00);
+    border-top: 1px solid hsla(116, 0%, 95%, 1.00);
+  }
