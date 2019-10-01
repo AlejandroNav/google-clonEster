@@ -1,0 +1,9 @@
+html,body {
+    font-family: arial,sans-serif;
+    height: 100vh;
+}
+header {
+    top: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+}
