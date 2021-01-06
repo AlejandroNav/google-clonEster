@@ -52,24 +52,56 @@ table {
 =            General Styles            =
 ======================================*/
 
-
+body{
+    padding: 20px;
+    border: 15px solid rgb(0, 0, 0);
+}
 
 /*==      navigation bar     ==*/
 
-
+nav{
+    border: 6px solid rgb(255, 136, 136);
+}
+#navbar{
+    background-color: aquamarine;
+}
 
 /*=  End of navigation  =*/
-
-
-
 /*==      Main     ==*/
-
+main{
+    border: 6px solid rgb(255, 136, 136);
+}
+#center{
+    padding: 5px;
+    margin: 2em 0px;
+    
+}
 
 
 /*=  End of Main =*/
-
-
-
 /*==      Footer     ==*/
+
+footer{
+    border: 6px solid rgb(255, 122, 122);
+}
+
+#footers{
+    background-color: beige
+;}
+
+
+
+.border{
+    border: 2px solid rgb(83, 27, 83);
+    padding: 5px;
+}
+.border2{
+    border: 2px solid tomato ;
+    padding: 5px;
+}
+.border3{
+    border: 2px solid rgb(21, 109, 100);
+    padding: 5px;
+}
 
 
