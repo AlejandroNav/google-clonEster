@@ -53,45 +53,75 @@ table {
 ======================================*/
 
 body{
-    padding: 20px;
-    border: 15px solid rgb(0, 0, 0);
     font-size: 14px;
-    background-color:#fffb2a;
+    background-color:#fdfcc6;
 }
 
 /*==      navigation bar     ==*/
 
-nav{
-    border: 6px solid rgb(255, 136, 136);
+nav{ 
+    display: flex;
+    left: 0;
+    top: 0; 
+
+    
 }
 #navbar{
-    background-color: aquamarine;
+    background-color: rgb(245, 226, 209);
 }
 
 /*=  End of navigation  =*/
+
+
+
+
+
 /*==      Main     ==*/
 main{
-    border: 6px solid rgb(255, 136, 136);
+    border: 3px solid rgb(255, 136, 136);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #center{
-    padding: 5px;
-    margin: 2em 0px;
-    
+    padding: 3px; 
+    margin: auto;
+    width: 60%;
+ 
 }
 #logo{
-    width: 12em;
+    padding: 3px; 
+    width: 60%;
 }
 
+
+
 /*=  End of Main =*/
+
+
+
+
+
+
+
+
 /*==      Footer     ==*/
 
 footer{
-    border: 6px solid rgb(255, 122, 122);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #footers{
     background-color: beige
 ;}
+/*==     End of Footer     ==*/
+
+
+
 
 
 
