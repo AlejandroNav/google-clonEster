@@ -55,6 +55,7 @@ table {
 body{
     padding: 20px;
     border: 15px solid rgb(0, 0, 0);
+    font-size: 14px;
 }
 
 /*==      navigation bar     ==*/
@@ -76,7 +77,9 @@ main{
     margin: 2em 0px;
     
 }
-
+#logo{
+    width: 12em;
+}
 
 /*=  End of Main =*/
 /*==      Footer     ==*/
