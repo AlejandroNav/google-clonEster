@@ -88,21 +88,38 @@ main{
     transform: translate(-50%, -50%);
 }
 #center{
-    padding: 3px; 
-    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 #logo{
-    height: 15em;
+    height: 20em;
+}
+#searchform{
+    width: auto;
+    max-width: 584px;
+    margin: 0px 80px;
 }
 
+.searchbar{
+    width:565px;
+    border-radius:30px;
+    border:2px solid #e9e9e9cc;
+}
 
+.innersearch{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    
+  }
 
-
-
+  .inputs{
+    margin-top: 15px;    
+  }
 
 /*=  End of Main =*/
 
