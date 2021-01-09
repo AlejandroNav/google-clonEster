@@ -54,34 +54,36 @@ table {
 
 body{
     font-size: 14px;
-    background-color: #FFFAFA;
+    background-color: #ffffff;
 }
-
+span{
+    padding: 0 10px;
+}
 /*==      navigation bar     ==*/
 
 nav{ 
     display: flex;
     left: 0;
     top: 0; 
-    justify-content: flex-end
-;
-    
+    justify-content: flex-end;
 }
 #navbar{
-    background-color: rgb(245, 226, 209);
+    line-height: 24px;
+    vertical-align: middle;
 }
 
 /*=  End of navigation  =*/
-
-
+/* border: 3px solid rgb(255, 136, 136);   for needin of the borderin*/
 
 
 
 /*==      Main     ==*/
+html{
+    font-family: arial,sans-serif;
+}
 main{
-    border: 3px solid rgb(255, 136, 136);
     position: fixed;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -89,21 +91,20 @@ main{
     padding: 3px; 
     width: 60%;
     display: flex;
-    justify-content: center;
- 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 #logo{
-    padding: 3px; 
-    width: 60%;
+    height: 15em;
 }
+
+
+
 
 
 
 /*=  End of Main =*/
-
-
-
-
 
 
 
@@ -118,7 +119,9 @@ footer{
 }
 
 #footers{
-    background-color: antiquewhite
+    line-height: 24px;
+    vertical-align: middle;
+    background-color: rgb(231, 230, 227)
 ;}
 
 #second-footer{
