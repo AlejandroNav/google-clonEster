@@ -54,7 +54,7 @@ table {
 
 body{
     font-size: 14px;
-    background-color:#fdfcc6;
+    background-color: #FFFAFA;
 }
 
 /*==      navigation bar     ==*/
@@ -63,7 +63,8 @@ nav{
     display: flex;
     left: 0;
     top: 0; 
-
+    justify-content: flex-end
+;
     
 }
 #navbar{
@@ -86,8 +87,9 @@ main{
 }
 #center{
     padding: 3px; 
-    margin: auto;
     width: 60%;
+    display: flex;
+    justify-content: center;
  
 }
 #logo{
@@ -116,8 +118,14 @@ footer{
 }
 
 #footers{
-    background-color: beige
+    background-color: antiquewhite
 ;}
+
+#second-footer{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
 /*==     End of Footer     ==*/
 
 
