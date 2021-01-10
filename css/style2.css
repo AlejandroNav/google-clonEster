@@ -105,11 +105,11 @@ main{
 .searchbar{
     width:565px;
     border-radius:30px;
-    border:2px solid #e9e9e9cc;
+    border:1px solid #e9e9e9cc;
 }
 
 .innersearch{
-    height:45px;
+    height: 2.3em;
     border:none;
     width:500px;
     font-size:16px;
@@ -120,6 +120,19 @@ main{
   .inputs{
     margin-top: 15px;    
   }
+  .gbutton{
+    background-color:#f8f9fa;
+    border: 1px solid #e6e8eb;
+    width: auto;
+    height: 36px;
+    line-height: 27px;
+    width: 10em;
+    margin: 11px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #495055;
+  }
+
 
 /*=  End of Main =*/
 
@@ -138,8 +151,9 @@ footer{
 #footers{
     line-height: 24px;
     vertical-align: middle;
-    background-color: rgb(231, 230, 227)
-;}
+    background-color: #e4e4e4dc;
+    color: #70757a;
+}
 
 #second-footer{
     display: flex;
