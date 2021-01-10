@@ -112,6 +112,11 @@ main{
     border-radius:30px;
     border:1px solid #c5c3c3cc;
 }
+.searchbar:hover {
+    border: 1px solid #C0C0C0;
+    color: hsla(214, 5%, 39%, 1.00);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.4);
+  }
 
 .innersearch{
     height: 2.3em;
@@ -136,6 +141,11 @@ main{
     cursor: pointer;
     border-radius: 4px;
     color: #495055;
+  }
+  .gbutton:hover {
+    border: 1px solid #C0C0C0;
+    color: hsla(214, 5%, 39%, 1.00);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.4);
   }
 
 
@@ -180,10 +190,13 @@ footer{
     white-space: nowrap;
     /* margin-left: 27px; */
     padding-right: 1em;
-
-
-    
 }
+#second-footer a:hover {
+    
+    color: #7c4545 ;
+    text-decoration: underline;
+    
+  }
 /*==     End of Footer     ==*/
 
 /* .border{

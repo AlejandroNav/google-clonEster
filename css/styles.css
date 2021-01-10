@@ -89,3 +89,9 @@ footer {
     color: hsla(214, 5%, 39%, 1.00);
     border-top: 1px solid hsla(116, 0%, 95%, 1.00);
   }
+
+  #scream{
+    color: rgb(245, 19, 19);
+    font-size: 1.5em;
+    font-weight: bold;
+  }
